@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Institut La Cloche</title>
+
+    <!-- Chargement des polices -->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+
+    <!-- Chargement des styles CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+<body>
+    <body>
+		<div class="jumbotron home home-fullscreen" id="home">
+			<div class="mask"></div>
+			<a href="#" class="logo">
+				<img src="img/logo.png" alt="" class="img-responsive" style="max-width: 230px; height: auto;">
+			</a>
+			<a href="#contact" class="menu-toggle" id="nav-expander"><i class="fa fa-bars"></i></a>
+			<!-- Navigation externe -->
+			<nav class="menu">
+				<a href="#" class="close"><i class="fa fa-close"></i></a>
+				<h3>Menu</h3>
+				<ul class="nav">
+					<li><a data-scroll href="#home">Accueil</a></li>
+					<li><a data-scroll href="#services">Service</a></li>
+					<li><a data-scroll href="#portfolio">Histoires Inspirantes</a></li>
+					<li><a data-scroll href="#contact">Contact</a></li>
+				</ul>
+				<ul class="social-icons">
+					<li><a href=""><i class="fa fa-facebook"></i></a></li>
+					<li><a href=""><i class="fa fa-instagram"></i></a></li>
+					<li><a href=""><i class="fa fa-linkedin"></i></a></li>
+
+	
+				</ul>
+			</nav>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center">
+						<div class="header-info">
+							<h1 class="hidden-xs">Institut La Cloche</h1>
+							<h2 class="visible-xs">Institut La Cloche</h2>
+							<p>
+								Un lieu d'apprentissage interactif qui nourrit la créativité et prépare les élèves à un avenir prometteur, guidés par des enseignants dévoués.
+							</p>
+							<a data-scroll href="#contact" class="btn btn-primary">Entrer en Contact</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+    <!-- Section Services commence -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+				<div class="col-md-4">
+					<div class="service-item">
+						<div class="icon"><i class="fa fa-diamond"></i></div>
+						<h3>Nurturer la Créativité</h3>
+						<p>Nous encourageons la créativité chez nos élèves en leur offrant un environnement stimulant qui favorise l'imagination et la pensée innovante.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="service-item">
+						<div class="icon"><i class="fa fa-gear"></i></div>
+						<h3>Développer des Compétences</h3>
+						<p>Nous développons les compétences essentielles de nos élèves en leur fournissant une éducation de qualité qui les prépare à relever les défis futurs.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="service-item">
+						<div class="icon"><i class="fa fa-life-ring"></i></div>
+						<h3>Guider avec Bienveillance</h3>
+						<p>Nous guidons nos élèves avec bienveillance, les soutenant dans leur apprentissage et les aidant à surmonter les obstacles avec confiance.</p>
+					</div>
+				</div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Services se termine -->
+    <!-- Section Portfolio commence -->
+	
+	<section id="portfolio" class="darker">
+		<div class="container">
+			<header>
+				<h2>Histoires Inspirantes</h2>
+				<p>Découvrez quelques moments inspirants qui reflètent notre engagement envers l'éducation et l'épanouissement des élèves.</p>
+			
+				</p>
+			</header>
+			<div id="single-project"></div>
+			<div class="row">
+		
+				<figure class="portfolio-item col-md-4 col-sm-6" >
+					<img class="img-responsive" src="img/stories/story1.jpg" alt="Adena icons pack" />
+					<figcaption class="mask">
+						<a href="stories/story1.html">
+							<i class="glyphicon glyphicon-plus"></i>
+						</a>
+					</figcaption>
+				</figure>
+				<figure class="portfolio-item col-md-4 col-sm-6" >
+					<img class="img-responsive" src="img/stories/story2.jpg" alt="Adena icons pack" />
+					<figcaption class="mask">
+						<a href="stories/story2.html">
+							<i class="glyphicon glyphicon-plus"></i>
+						</a>
+					</figcaption>
+				</figure>
+				<figure class="portfolio-item col-md-4 col-sm-6" >
+					<img class="img-responsive" src="img/stories/story3.jpg" alt="Adena icons pack" />
+					<figcaption class="mask">
+						<a href="stories/story3.html">
+							<i class="glyphicon glyphicon-plus"></i>
+						</a>
+					</figcaption>
+				</figure>
+			</div>
+		</div>
+	</section>
+	
+	
+    <!-- Section Portfolio se termine -->
+    <!-- Section Contact commence -->
+    <section id="contact">
+        <div class="container">
+            <header>
+				<h2>Nous Contacter</h2>
+				<p>N'hésitez pas à nous contacter pour toute question ou information concernant notre école primaire. Nous sommes là pour vous aider et vous fournir toutes les informations nécessaires.</p>
+            </header>
+            <div class="map-wrapper">
+                <div class="map-canvas" id="map-canvas">Chargement de la carte...</div>
+                <div class="marker">
+                    <span>Nous Sommes Ici</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <form id="contact-form" class="row">
+                        <div class="form-group col-md-6">
+                            <input name="name" type="text" placeholder="Votre Nom" class="form-control" required />
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input name="email" type="email" placeholder="Votre Email" class="form-control" required />
+                        </div>
+                 
+                        <div class="form-group col-md-12">
+                            <textarea name="message" class="form-control" rows="10" placeholder="Message" required></textarea>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <button id="send-button" class="btn btn-lg btn-primary">Envoyer</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-3 col-md-offset-1">
+                    <address>
+                        <span>Notre Adresse</span>
+                        <p>
+                            Centre Agroalimentaire<br>
+                            36 Bis Allée Tamaris près du<br>
+                            Casablanca
+
+							
+                        </p>
+                    </address>
+                    <address>
+                        <span>Email</span>
+                        <p>m.ammaha2144@uca.ac.ma</p>
+                    </address>
+                    <address>
+                        <span>Téléphone</span>
+                        <p>0522662797</p>
+                    </address>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        // Code JavaScript pour gérer la soumission du formulaire
+        document.getElementById("send-button").addEventListener("click", function (event) {
+            event.preventDefault();
+
+            var formData = new FormData(document.getElementById("contact-form"));
+
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "votre-point-d'extrémité-de-serveur", true);
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    // Gérer le succès, par exemple, afficher un message de remerciement
+                    alert("Message envoyé avec succès !");
+                } else {
+                    // Gérer l'erreur, par exemple, afficher un message d'erreur
+                    alert("Une erreur s'est produite. Veuillez réessayer plus tard.");
+                }
+            };
+            xhr.send(formData);
+        });
+    </script>
+	<!-- Section Contact se termine -->
+	<!-- Pied de page commence -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<p id="copyright">&copy; <span id="currentYear">2023</span> Tous les droits réservés | <a href="#" target="_blank">Institut La Cloche</a></p>
+				</div>
+				<div class="col-md-4">
+					<ul class="social-icons">
+						<li><a href=""><i class="fa fa-facebook"></i></a></li>
+						<li><a href=""><i class="fa fa-linkedin"></i></a></li>
+						<li><a href=""><i class="fa fa-instagram"></i></a></li>
+					
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<script>
+		const currentYear = new Date().getFullYear();
+		const currentYearElement = document.getElementById("currentYear");
+		if (currentYearElement) {
+			currentYearElement.textContent = currentYear;
+		}
+	</script>
+	
+	<!-- Pied de page se termine -->
+	<!-- Charger jQuery -->
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	<!-- Charger Bootstrap -->
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/smooth-scroll.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<!-- Charger js personnalisé pour le thème -->
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
